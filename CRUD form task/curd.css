@@ -1,0 +1,93 @@
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight : bolder; 
+}
+input {
+
+    border: 2px solid;   
+}
+
+table, th, td {
+    border: 2px solid;
+    background-color:aliceblue;
+  }
+  td {
+    width: 80px;
+    height: 100%;
+}
+  th {
+    width: 100px;
+    height: 100%;
+}
+table.tab {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+button:hover{
+    background-color: rgb(146, 207, 47);
+    color: rgb(0, 0, 0);
+
+}
+
+button {
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    border: 3px solid;  
+    text-align: center;
+    border-color: rgba(137, 43, 226, 0.61);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight : bolder;
+    font-size: small;
+}
+
+
+div#insidecont {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+
+}
+div#cont2 {
+    width: 50%;
+    height: 75%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+div#cont1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ 
+    background-color: antiquewhite;
+}
+body {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 4px solid;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
